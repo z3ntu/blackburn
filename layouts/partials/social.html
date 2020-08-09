@@ -198,5 +198,10 @@
     </li>
     {{ end }}
 
+    {{ with .Site.Social.srht }}
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://sr.ht/{{ . }}" rel="me" target="_blank"><i class="fas fa-code-branch fa-fw"></i>Sourcehut</a>
+    </li>
+    {{ end }}
   </ul>
 </div>
